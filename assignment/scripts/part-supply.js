@@ -10,11 +10,15 @@ console.log(partsNeeded);
 // 2. Create a variable call 'supplyChanges' set it to an array containing
 //    the following numbers: 3, 5, -6, 0, 7, 11
 console.log('2. Array of supplyChanges:');
-let supplyChanges = ('2. 3, 5, -6, 0, 7, 11');
+let supplyChanges = ['3', '5', '-6', '0', '7', '11'];
+console.log(supplyChanges);
 
 // 3. Console log the value of 'supplyChanges' at index 2
 console.log('3. Item at index 2 is:');
-console.log(supplyChanges);
+let i = supplyChanges[1];
+console.log(i);
+
+
 // 4. The last item was added by mistake. Remove it from the 'supplyChanges'
 //    array & console.log the value removed.
 console.log('4. Removed item:');
